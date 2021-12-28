@@ -7,15 +7,9 @@ public class NewPC {
         this.name = name;
         this.price = price;
 }
+
     public void assemblyPC() {
-        System.out.println(toString() + "Достаем из коробки и открываем.");
-    }
-
-    public String toString(){
-        return "Корпус, производитель " + name + " , цена " + price + " ." ;
-    }
-
-    public void homePC() {
+        System.out.println("Корпус, производитель " + name + " , цена " + price + " ."  + "Достаем из коробки и открываем.");
     }
 }
 

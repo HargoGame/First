@@ -8,13 +8,6 @@ public class Cpu extends NewPC{
 
     @Override
     public void assemblyPC() {
-        System.out.println(toString() + "Ставим в материнскую плату и устанавливаем в новый корпус.");
+        System.out.println("Процессор, производитель " + name + " " + this.series +  " , цена " + price + " ." + "Ставим в материнскую плату и устанавливаем в новый корпус.");
     }
-
-    @Override
-    public String toString(){
-        return "Процессор, производитель " + name + " " + this.series +  " , цена " + price + " ." ;
-    }
-
-
 }
