@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
         NewPC newPC = new NewPC();
         newPC.print();
+        newPC.on();
+        newPC.off();
 
     }
 

@@ -1,4 +1,4 @@
-public class NewPC {
+public class NewPC implements OnOff{
     Object[] objects;
     protected int price;
     protected String name;
@@ -23,6 +23,16 @@ public class NewPC {
     @Override
     public String toString(){
         return "Корпус, производитель " + name + " , цена " + price + " ." + "Достаем из коробки и открываем.";
+    }
+
+    @Override
+    public void on() {
+        System.out.println("Включаем новый ПК");;
+    }
+
+    @Override
+    public void off() {
+        System.out.println("Выключаем новый ПК");;
     }
 }
 
