@@ -7,7 +7,7 @@ public class GraphicsCard extends NewPC{
     }
 
     @Override
-    public void assemblyPC() {
-        System.out.println("Видеокарта, производитель " + name + " " + this.series +  " , цена " + price + " ." + "Устанавливаем видеокарту в материнкую плату и закрываем корпус.");
+    public String toString(){
+        return "Видеокарта, производитель " + name + " " + this.series +  " , цена " + price + " ." + "Устанавливаем видеокарту в материнкую плату и закрываем корпус.";
     }
 }
