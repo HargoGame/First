@@ -11,10 +11,10 @@ public class ChessBoard {
     }
 
     public boolean moveToPosition(int startLine, int startColumn, int endLine, int endColumn) {
-        if(checkPos(startLine) && chekPos(startColumn)) {
+        if(checkPos(startLine) && checkPos(startColumn)) {
             if (!nowPlayer.equals(board[startLine][startColumn].getColor())); return false;
 
-            if(board[startLine][startColumn].canMoveToPosition(this, startLine, startColumn, endLine, endColumn)) {
+            if (board[startLine][startColumn].canMoveToPosition(this, startLine, startColumn, endLine, endColumn)) {
                 if (board[startLine][startColumn].getSymbol().equals("K") || board[startLine][startColumn].getSymbol().equals("R")) {
                     board[startLine][startColumn].chek = false;
                 }
