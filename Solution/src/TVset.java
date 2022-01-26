@@ -1,6 +1,6 @@
 public class TVset{
 
-    private int channel = 5;
+    private int channel;
     private boolean isOn;
     private Remote remote = new Remote();
 
@@ -37,7 +37,7 @@ class Main {
         System.out.println(tv);
         remote.turnOn();
         System.out.println(tv);
-        remote.setChannel(2);
+        remote.setChannel(6);
         System.out.println(tv);
         remote.turnOff();
         System.out.println(tv);
