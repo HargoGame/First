@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="skillfactory:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/skillfactory_jar</output-path>
+    <root id="archive" name="skillfactory.jar">
+      <element id="module-output" name="skillfactory" />
+      <element id="module-output" name="ChessJava" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/junit/junit/4.13.1/junit-4.13.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
